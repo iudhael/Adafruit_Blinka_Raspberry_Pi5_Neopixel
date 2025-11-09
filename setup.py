@@ -31,7 +31,7 @@ setup(
     # level" feature, but in the future it may provide more features.
     cmdclass={"build_ext": build_ext},
     zip_safe=False,
-    python_requires=">=3.11",
+    python_requires=">=3.10",
     extras_require={
         'docs': ["sphinx", "sphinx-rtd-theme", "sphinxcontrib-jquery"],
     },
